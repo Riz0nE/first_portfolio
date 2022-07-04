@@ -8,21 +8,30 @@ h3 {
     font-size: 25px;
 }
 
+h2 {
+    font-size: 50px;
+    color: orange;
+    font-weight: 700;
+}
+
 P {
     font-size: 20px;
 }
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    /* this is for topside e background image laigga jabar jonnow */
 }
 
 
-.red {
+.orange-color {
     color: orange;
 }
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -32,6 +41,7 @@ section {
 
 .half-width img {
     width: 80%;
+
 }
 
 .link-button {
@@ -41,4 +51,17 @@ section {
     border-radius: 2em;
     color: white;
     font-weight: 700;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+
+}
+
+.second-section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }

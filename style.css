@@ -29,7 +29,7 @@ body {
     color: orange;
 }
 
-section {
+.flex-display {
     display: flex;
     margin-bottom: 150px;
 }

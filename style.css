@@ -6,11 +6,12 @@ h1 {
 
 h3 {
     font-size: 25px;
+    color: orange;
 }
 
 h2 {
-    font-size: 50px;
-    color: orange;
+    font-size: 40px;
+    color: black;
     font-weight: 700;
 }
 
@@ -64,4 +65,39 @@ body {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.shadow-box {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#header-big {
+    font-size: 65px;
+    color: black;
+}
+
+#fd {
+    border-left: 7px solid blue;
+}
+
+#bd {
+    border-left: 7px solid tomato;
+}
+
+footer {
+    text-align: center;
 }
